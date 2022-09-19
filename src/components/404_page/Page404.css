@@ -1,0 +1,45 @@
+.p404_main{
+    width: 70%;
+    margin: 10px auto;
+}
+.p404_wrapper{
+    height: 70vh;
+    margin: 10px auto;
+}
+
+.Image404{
+    width: 100%;
+    background:  #d6eaf8 ;
+    height: 90%;
+    border-radius: 17px  17px 17px 17px ;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+.p404_word{
+    width: 60%;
+    text-align: right;
+    margin: 0px auto;
+    cursor: pointer;
+}
+.p404_word p {
+    color:  #5d6d7e ;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:880px) {
+    .p404_main{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .p404_wrapper{
+        height: auto;
+        margin: 10px auto;
+    }
+    .Image404{
+        width: 100%;
+        background:  #d6eaf8 ;
+        height: 90%;
+        border-radius: 0px  0px 0px 0px ;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    }
+}

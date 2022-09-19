@@ -1,0 +1,135 @@
+.Contact_main {
+  width: 70%;
+  margin: 10px auto;
+}
+
+.Contact_wrapper {
+  display: flex;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.Contact_left {
+  flex: 1;
+}
+
+.Contact_right {
+  flex: 1;
+}
+
+.C_right_wrapper {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.Contact_locations {
+  display: flex;
+  margin: 20px auto;
+}
+.C_loc {
+  flex: 1;
+}
+
+.C_loc h5 {
+  font-weight: bold;
+}
+
+.name_email {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input_field_Contact {
+  margin: 0 10px;
+}
+
+.Contact_Subject {
+  width: 97%;
+  margin: 15px auto;
+}
+
+.Contact_text_area {
+  width: 97%;
+  margin: 15px auto;
+}
+.Contact_Send_btn {
+  width: 97%;
+  margin: 15px auto;
+}
+
+.Contact_social_main {
+  width: 97%;
+  margin: 15px auto;
+}
+
+.Contact_social_icons {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .Contact_main {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .Contact_right {
+    flex: 1;
+    background:  transparent ;
+  }
+
+  .Contact_wrapper {
+    display: flex;
+    height: auto;
+    width: 90%;
+    margin: 0px auto;
+    flex-direction: column;
+    box-shadow: none;
+  }
+  .C_right_wrapper {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .Contact_locations {
+    display: flex;
+    margin: 20px auto;
+    flex-direction: column;
+  }
+  .Contact_left {
+    display: none;
+  }
+  .C_loc{
+      margin: 10px 0;
+  }
+  .name_email {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 15px auto;
+  }
+  .input_field_Contact{
+      margin: 10px auto;
+  }
+  
+.Contact_Subject {
+    width: 100%;
+    margin: 15px auto;
+  }
+  
+  .Contact_text_area {
+    width: 100%;
+    margin: 15px auto;
+  }
+  .Contact_Send_btn {
+    width: 100%;
+    margin: 15px auto;
+  }
+  
+  .Contact_social_main {
+    width: 100%;
+    margin: 15px auto;
+  }
+  
+  
+}

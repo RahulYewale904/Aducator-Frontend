@@ -1,0 +1,169 @@
+.Jumbo_main {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.Jumbo_wrapper {
+  display: flex;
+  height: 90vh;
+}
+
+.Jumbo_left {
+  flex: 1;
+}
+
+.Jumbo_right {
+  flex: 1;
+  text-align: center;
+}
+
+.jumbo_heading {
+  margin: 20px auto;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.jumbo_heading h5 {
+  margin-bottom: 10px;
+}
+.jumbo_heading h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.Student_logo {
+  height: 100%;
+  object-fit: contain;
+}
+
+.Jumbo_btn {
+  display: flex;
+  padding-left: 10px;
+}
+.home_btn {
+  margin: 5px 5px;
+  border-radius: 19px 19px 19px 19px;
+  text-align: center;
+}
+
+.Jumbo_search {
+  margin-left: 50px;
+}
+.Jumbo_input_box {
+  border: none !important;
+}
+.social_input {
+  margin: 20px auto;
+}
+.social_jumbo {
+  display: flex;
+  padding-left: 20px;
+}
+.social-icons {
+  margin: 0 5px;
+}
+.social_jumbo span {
+  margin-bottom: 15px;
+  background: #218ef1;
+  padding: 12px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  color: #fff !important;
+  transition: 0.5s all ease-in-out;
+}
+
+.social_jumbo span:hover {
+  margin-bottom: 15px;
+  cursor: pointer;
+  background: #8e44ad;
+  padding: 12px;
+  border-radius: 31% 69% 47% 53% / 57% 52% 48% 43% ;
+  color: #fff !important;
+  font-weight: bold !important;
+}
+.input {
+  display: flex;
+  align-items: center;
+  padding: 10px 9px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.Jumbo_Search_icon {
+  cursor: pointer;
+}
+
+.Cat_shadow {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.about_outerLayer{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+  rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+  rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+  rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+  rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+
+.aboutWhy{
+  border-radius: 20% 80% 79% 21% / 61% 43% 57% 39% ;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+  rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+  rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+  rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+  rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.about_tech{
+  border-radius: 50% 50% 47% 54% / 45% 45% 56% 54%   ;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+  rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+  rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+  rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+  rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.profileBorder {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+@media screen and (max-width: 930px) {
+  .Jumbo_main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .Jumbo_wrapper {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+  }
+  .Jumbo_right {
+    display: none;
+  }
+  .Jumbo_left {
+    flex: 1;
+    text-align: center;
+  }
+  .jumbo_heading {
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-left: 0px;
+  }
+  .Jumbo_btn {
+    display: flex;
+    padding-left: 0px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .social_input {
+    display: none;
+  }
+}

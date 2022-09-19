@@ -1,0 +1,147 @@
+.NavBurger {
+  border: none;
+}
+.sidebar_main {
+  display: none;
+}
+
+.sidebar {
+  background: #283747;
+}
+
+.close_menu {
+  cursor: pointer;
+}
+.close_menu:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.pc_view {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  width: 100%;
+}
+.menu_logo {
+  flex: 1;
+  padding-left: 70px;
+}
+.menu_Links {
+  flex: 3;
+  padding-right: 40px;
+  background: #218ff2;
+  padding: 15px 0;
+  border-radius: 84px 0px 0px 84px;
+  -moz-border-radius: 84px 0px 0px 84px;
+  -webkit-border-radius: 84px 0px 0px 84px;
+  border: 0px solid #000000;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.Pc_links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  transition: 1s all ease-in-out;
+}
+.Pc_links li {
+  color: #fff;
+}
+.Pc_links li:hover {
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.Logo {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.Links_nav_mobile {
+  padding-bottom: 37px;
+}
+.Nav_Link_PC:hover {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+.SideMenu {
+  display: none;
+}
+
+
+
+.dropdown {
+  padding: 15px 0px;
+  position: relative;
+  display: flex;
+  gap: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  min-width: 200px;
+  padding: 12px 12px;
+  z-index: 1;
+  height: auto;
+  background: #218ff2;
+  border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+  border: 0px solid #000000;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.admina {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  text-decoration: none;
+  color: #000;
+  vertical-align: center;
+}
+
+.admina:hover {
+ 
+}
+
+.adminSpan:hover {
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 880px) {
+  .SideMenu {
+    display: block;
+  }
+  .s_m_left {
+    flex: 1;
+    text-align: right;
+    padding-right: 0px;
+  }
+
+  .menu_logo_mobile {
+    flex: 1.5;
+    text-align: left;
+    padding-left: 10px;
+  }
+  .uk-list {
+    text-align: justify;
+  }
+  .pc_view {
+    display: none;
+  }
+}

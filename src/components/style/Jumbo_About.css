@@ -1,0 +1,94 @@
+.about_main {
+  width: 90%;
+  margin: 15px auto;
+}
+
+.about_wrapper {
+  display: flex;
+}
+
+.about_left {
+  flex: 1;
+  background: #fcfcfc;
+}
+
+.about_right {
+  flex: 1;
+}
+
+.about_heading {
+  margin-top: 30px;
+  width: 70%;
+  margin-left: 20px;
+}
+
+.about_heading h1 {
+  font-weight: 600;
+}
+
+.about_details {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.a_dt {
+  display: flex;
+  margin: 30px auto;
+  border-radius: 10px;
+  text-align: justify;
+  background: #fff;
+  padding: 20px 10px;
+  transition: 0.2s all ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.about_desc{
+  margin: 0 20px;
+}
+
+.a_dt:hover {
+  background: #218ff2;
+  border-radius: 12px 12px 12px 12px;
+  color: #fff;
+}
+
+.a_dt_icons {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 930px) {
+  .about_main {
+    width: 100%;
+    margin: 15px auto;
+  }
+
+  .about_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .about_heading {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .a_dt {
+    display: flex;
+    width: 90%;
+    margin: 30px auto !important;
+    justify-content: center !important;
+    margin-left: 0px;
+    text-align: center !important;
+    background: #fff;
+    padding: 20px 10px;
+    transition: 0.2s all ease;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+      rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  }
+  .a_dt:hover {
+    background: #218ff2;
+    border-radius: 12px 12px 12px 12px;
+    color: #fff;
+  }
+}

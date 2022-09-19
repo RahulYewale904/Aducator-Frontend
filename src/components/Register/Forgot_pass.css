@@ -1,0 +1,70 @@
+.forgot_pass_main{
+    width: 90%;
+    margin: 15px auto;
+}
+
+.forgot_pass_wrapper{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.forgot_pass_left{
+    flex: 1;
+    background:  #ebf5fb  ;
+}
+
+.forgot_pass_right{
+    flex: 1;
+    padding: 0 10px;
+}
+.forgot_pass_right{
+    text-align: center;
+}
+.forgot_password_heading{
+    text-align: center;
+}
+
+.Name_form_FP{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width:880px) {
+    .forgot_pass_main{
+        width: 100%;
+        margin: 15px auto;
+    }
+    .forgot_pass_wrapper{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .forgot_pass_left{
+        flex: 1.5;
+        background:  #ebf5fb  ;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .forgot_pass_right{
+        flex: 1;
+        padding: 0 10px;
+    }
+    .Name_form_FP{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .forgot_pass_left{
+        display: none;
+    }
+    
+    
+}
