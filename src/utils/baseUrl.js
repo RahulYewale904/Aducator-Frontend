@@ -1,2 +1,2 @@
 // export const baseUrl = 'http://localhost:5000'
-export const baseUrl ='https://aducator-backend.herokuapp.com/'
+export const baseUrl ='https://aducator-backend.herokuapp.com'
